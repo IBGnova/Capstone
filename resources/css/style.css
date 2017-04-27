@@ -151,9 +151,13 @@ html {
     border-bottom: .05rem solid lightgray;
   }
 
-  .info-container img {
+  .desktop-info-img {
     width: 35%;
     height: 100%;
+  }
+
+  .mobile-info-img {
+    display: none;
   }
 
   .info {
@@ -406,6 +410,36 @@ footer {
   /*Mobile Read More Selectors Start*/
   .left-column {
     display: none;
+  }
+
+  .desktop-info-img {
+    display: none;
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .info {
+    text-align: center;
+    padding-top: .75rem;
+  }
+
+  .info h3 {
+    font-size: 1.5rem;
+  }
+
+  .info span {
+    font-size: .75rem;
+  }
+
+  .info a {
+    font-size: .75rem;
+  }
+
+  .mobile-info-img {
+    width: 100%;
+    display: block;
   }
   /*-Mobile Read More Selectors End-*/
 
