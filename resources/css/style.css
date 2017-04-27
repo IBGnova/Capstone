@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
   font-size: 12px;
+  font-family: 'Prompt', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -16,7 +17,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: beige;
 }
 
 .header-title {
@@ -24,7 +24,8 @@ header {
   display: flex;
   align-items: center;
   font-size: 1.83rem;
-  color: gray;
+  color: rgb(91, 92, 94);
+  font-weight: 500;
 }
 
 .header-title img {
@@ -33,6 +34,7 @@ header {
 
 .header-title span {
   font-weight: bold;
+  color: rgb(49, 49, 51);
 }
 
 .header-nav ul li {
@@ -44,7 +46,64 @@ header {
 
 
 /*Content Section Selectors Start*/
+
 .content-container {
   display: flex;
   padding: 2.66rem 2rem;
 }
+
+/*Banner Selectors Start*/
+.banner {
+  background-color: lightgray;
+}
+
+.banner img {
+  width: 60%;
+  margin-right: 3.33rem;
+}
+
+.banner-text {
+  width: 30%;
+  margin: auto 0;
+  color: rgb(91, 92, 94);
+  font-weight: bold;
+}
+
+.banner h1 {
+  font-size: 5.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.banner h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2.75rem;
+  font-weight: 600;
+}
+
+.banner-btn {
+  width: 100%;
+  background-color: rgb(91, 92, 94);
+  text-align: center;
+  padding: .66rem 0;
+}
+
+.banner-btn a{
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+/*-Banner Selectors End-*/
+
+/*Read More Selectors Start*/
+
+/*-Read More Selectors End-*/
+
+/*Start Learning Selectors Start*/
+/*-Start Learning Selectors End-*/
+
+/*Thesis Exhibit Selectors Start*/
+/*-Thesis Exhibit Selectors End-*/
+
+/*-Content Section Selectors End-*/
