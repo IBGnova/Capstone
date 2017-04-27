@@ -49,7 +49,6 @@ header {
 
 .content-container {
   display: flex;
-  padding: 2.66rem 2rem;
 }
 
 /*Banner Selectors Start*/
@@ -60,6 +59,7 @@ header {
 .banner img {
   width: 60%;
   margin-right: 3.33rem;
+  margin: 2.66rem 2rem;
 }
 
 .banner-text {
@@ -98,12 +98,242 @@ header {
 
 /*Read More Selectors Start*/
 
+/*Left Column Selectors Start*/
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2.66rem 2rem;
+  }
+
+  .left-text {
+    text-align: center;
+  }
+
+  .left-column h1 {
+    color: rgb(91, 92, 94);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2.66rem;
+    margin-bottom: 2rem;
+  }
+
+  .left-column p {
+    font-size: 1.75rem;
+    margin-bottom: 2.66rem;
+  }
+
+  .left-column span {
+    font-size: 1.75rem;
+  }
+
+/*-Left Column Selectors End-*/
+
+/*Right Column Selectors Start*/
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.33rem;
+    border-left: 0.05rem solid lightgray;
+  }
+
+  .info-container {
+    display: flex;
+    padding: 1.33rem;
+    border-bottom: .05rem solid lightgray;
+  }
+
+  .info-container img {
+    width: 35%;
+    height: 100%;
+  }
+
+  .info {
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .66rem;
+  }
+
+  .info span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: .66rem;
+  }
+
+  .info a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(101, 157, 247);
+    text-decoration: none;
+  }
+
+  #third-info {
+    background-color: lightgray;
+  }
+
+/*-Right Column Selectors End-*/
+
 /*-Read More Selectors End-*/
 
 /*Start Learning Selectors Start*/
+.start-learning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.start-learning h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(91, 92, 94);
+  margin: 2rem 0;
+}
+
+.all-courses {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.course-container {
+  width: 30%;
+  margin: 1rem 1.33rem;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-container img {
+  width: 100%;
+}
+
+.course-name {
+  font-size: 2rem;
+  color: rgb(91, 92, 94);
+  font-weight: 600;
+  margin-top: 1.33rem;
+}
+
+.courses-text {
+  font-size: 1.85rem;
+  margin: .66rem 0;
+}
+
+.course-desc {
+  font-size: 1.65rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*-Start Learning Selectors End-*/
 
 /*Thesis Exhibit Selectors Start*/
+  .thesis-exhibit {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .thesis-exhibit h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(91, 92, 94);
+  }
+
+  .thesis-content {
+    display: flex;
+  }
+
+  /*Thesis Right Start*/
+  .thesis-right {
+    margin-left: 1.33rem;
+    margin-top: 2.66rem;
+  }
+
+  .thesis-right-content {
+    display: flex;
+    padding: 1.33rem;
+    border-bottom: 0.1rem solid lightgray;
+    height: 168px;
+  }
+
+  .thesis-right-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1.66rem auto 1.66rem;
+    text-align: left;
+  }
+
+  .thesis-right-text h3 {
+    font-size: 2rem;
+    color: rgb(91, 92, 94);
+    font-weight: 600;
+  }
+
+  .thesis-right-text span {
+    font-size: 1.5rem;
+  }
+
+  .thesis-right-content img {
+    width: 35%;
+  }
+
+  #fisma {
+    background-color: lightgray;
+  }
+  /*-Thesis Right End-*/
+
+  /*Thesis Left Start*/
+  .thesis-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2.66rem 2rem;
+  }
+
+  .thesis-left video {
+    width: 100%;
+    height: auto;
+  }
+
+  .thesis-left h3 {
+    font-size: 2.5rem;
+    color: rgb(91, 92, 94);
+    font-weight: 600;
+  }
+
+  .thesis-left p {
+    font-size: 1.75rem;
+    margin-bottom: 2.66rem;
+  }
+  /*-Thesis Left End-*/
+
 /*-Thesis Exhibit Selectors End-*/
 
 /*-Content Section Selectors End-*/
+
+/*Footer Start*/
+footer {
+  color: rgb(91, 92, 94);
+  background-color: lightgray;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.footer-nav ul li {
+  display: inline;
+  margin-left: 1rem;
+}
+/*-Footer End-*/
