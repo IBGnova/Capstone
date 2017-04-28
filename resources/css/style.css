@@ -77,25 +77,25 @@ html {
 }
 
 .banner-text {
-  width: 30%;
+  width: 38%;
   margin: auto 0;
   color: rgb(91, 92, 94);
   font-weight: bold;
 }
 
 .banner h1 {
-  font-size: 5.25rem;
+  font-size: 4.25rem;
   margin-bottom: 2.5rem;
 }
 
 .banner h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2.75rem;
   font-weight: 600;
 }
 
 .banner-btn {
-  width: 100%;
+  width: 66%;
   background-color: rgb(91, 92, 94);
   text-align: center;
   padding: .66rem 0;
@@ -271,6 +271,7 @@ html {
     font-size: 4rem;
     font-weight: bold;
     color: rgb(91, 92, 94);
+    margin-top: 2.66rem;
   }
 
   .thesis-content {
